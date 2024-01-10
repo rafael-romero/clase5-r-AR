@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tarea 2 clase 5</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+    <h1>Bienvenido!</h1><br><br>
+    <form action="">
+      <label for="nombre-de-usuario">Ingrese su primer nombre:</label>
+      <input type="text" name="" id="nombre-de-usuario"><br><br>
+      <label for="segundo-nombre-de-usuario">Ingrese su segundo nombre:</label>
+      <input type="text" name="" id="segundo-nombre-de-usuario"><br><br>
+      <label for="apellido-de-usuario">Ingrese su apellido:</label>
+      <input type="text" name="" id="apellido-de-usuario"><br><br>
+      <label for="edad-de-usuario">Ingrese su edad:</label>
+      <input type="number" name="" id="edad-de-usuario"><br><br>
+      <button type="button" id="btn-calcular">Mostrar informacion y saludar</button>
+      <button type="reset" id="reset" onclick="recargarPagina()">Limpiar datos del formulario</button>
+    </form>
+    <br><br>
+    <div id="mostrar-informacion">
+      <label  for="mostrar-informacion-de-usuario">Su informacion es la siguiente:</label><br>
+      <em id='mostrar-informacion-de-usuario'></em>
+    </div>
+    
+    
+    <script src="tarea2.js" async defer></script>
+  </body>
+</html>
